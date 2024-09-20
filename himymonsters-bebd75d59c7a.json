@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "himymonsters",
+  "private_key_id": "bebd75d59c7a1c4501bcf6a81a819ba1615406d0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCvFPzWENDHWoEE\nTCxaQue1aoRL2HjIKy3BnB+P2aeh8JI7WIaz8YrpPQ6D52rKLenqcfOh5XLU0VGo\noEQ92vkJwyd5q+TR/i8XuX1jjhOfeiABWoa5FlGyL5i4Nnijob7LocFzgHnhQnSV\nHHKBJGrgukCwcCP5tNyey2HO3v+BXQGxCOeY4OpLBJd6I1PXbjbVTzB0IsjLxBXG\nArmVAXbhpNJXPpJURAvdaMyg6FD7VstXpnmmCaHUszFyFGaDHhsuxPxyq8mKgLwj\nL7YDS0DY8uYU9SRE2xmBAZcqRmKS1rUA/B2J0ULR29lDRrT1XypUrdeNusP6YwAa\nw1eVarndAgMBAAECggEALn35QfMHLdj3p6d+o51eoEsfxHBAao8kwGPv8agPnq4e\ndsnkQ0Zh59vBzf8W2YdltU77LkOawa6v64JbfL14IkKDagjeY3EHGlq0VEp3JYMt\nmo5qdh3aJeIDwO8eC/24h6R1lXFJbCrUgIAkW+zKwNBUu0WcGAQSDczeNSv8V2Jk\n00aBeNZptHl5/cnk0XBlNBK7FCdPqPXALZiU1ngfeeeChm7FRE59zX2djS4u7V+Y\n8ZNn9Uti7+Z0+fNoa+rlGdliddpmVeRggklnLBtPcz2KxdgBSvAmn8FFZsaguN79\nGv+X5rf1JzfNHWo0HcK/ycc3vL+Yeo9YZY7lQOdV1QKBgQDxpLkf0/FQb2E+ZwGU\nI9hfUJ8k5e3kn7WbkoAG3Hh7YcewiaClF5OGb6zRIXLmzSSwd8kd9Y49nl/3sWDp\njL/hj5MCn/ekjrufdaUGr05N3Kb3TNQTg/DCih0PjdPRFdsf48JQpnuCmuVEIuno\nHw4bH6f2AIfkLTQiXiOjy64hAwKBgQC5e+XMOK1AHP4O7pBu97CiXSIXIlEjL6tQ\ngfaMbf/ikMBPAhkkmtK0tQryFh+b78IggYJHsCN6/nNH3lJWTKckj40dehPNMHN6\n0BUV5Oerj1MCE2OrubNu7bcSvRa9kStU8ujDiuKaHOmLYpjxJGohzsIaoJTtr4Ar\naFhnuZsTnwKBgQCrtau/DDJMP/lQCI48oIQepwGPjLvRXBQG6sGDHqOWuVLXBdVb\nuzcfrreVHDmz/E53/4awfU+IRcRYFHmTPGsVc5q5oMau7qYwl76e02/HMGaNENEa\n1QT+mHoyFUxRJUDClmv8N3FIy5zjIBQq1/aEG6iUzKfD4sNLMK4OtKuV1QKBgDYL\nAnaRYPFYQTHqkoyygHWeOyuQZSGiZwDrDQH3nuHNmSqsCtVegtwCD/FfPtB5eA9u\njJ4ElSHl94LOJSFd7ik55jzbb9+OKWd0L2CUtGeJN/9X1OeZEM3WV0wPagvLu1th\n9y3aTpHmsKlbDgLcwEufaXDGrv3d77M2EOQP8T4zAoGBAMEt66xRxMcNdGVdBSAb\nvH3nDpb2pgUOJpaPWz6ulum42t9qpYHTkO/qjbUS54qUF4kqonOnH9vw2n0QGb8S\n32RUoDnqc11me8qOH3qNSWhsoTUO2hpDMlGPOciaql/EdZYM4HO3FXRgo+N0VTaS\nJDTN8+4WksevM8+HY0ft4lhz\n-----END PRIVATE KEY-----\n",
+  "client_email": "himymonster-shop@himymonsters.iam.gserviceaccount.com",
+  "client_id": "102538552996808796648",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/himymonster-shop%40himymonsters.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
