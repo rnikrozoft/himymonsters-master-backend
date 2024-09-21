@@ -1,0 +1,7 @@
+app:
+  database: "postgres://postgres:localdb@localhost:5432/nakama?sslmode=disable"
+
+shop:
+  id: "1TjW6-KlGjHMGAEbdKMyvk5LEJ-8StLPejNbzWOkQ45s"
+  sheet: "Sheet1!"
+  range: "A:E"
