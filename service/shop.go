@@ -31,10 +31,10 @@ func NewShop(Repo repository.RepositoryIF, id, sheetName, sheetRange string) *Sh
 func (s *ShopService) AddItems() error {
 	sheetRange := fmt.Sprintf("%s%s", s.Sheet, s.Range)
 	data := ReadGoogleSheet(s.ID, sheetRange)
-	var items []model.Item
+	var packages []model.Package
 	for i, v := range data {
 		if i != 0 {
-			items = append(items, model.Item{
+			packages = append(packages, model.Package{
 				ID:     v[0].(string),
 				Title:  v[1].(string),
 				Price:  v[2].(string),
@@ -44,7 +44,9 @@ func (s *ShopService) AddItems() error {
 		}
 	}
 
-	m, err := json.Marshal(items)
+	m, err := json.Marshal(model.Shop{
+		Packages: packages,
+	})
 	if err != nil {
 		log.Fatal("cannot marshal shop item from google sheet: ", err)
 		return err
@@ -52,7 +54,7 @@ func (s *ShopService) AddItems() error {
 
 	storageWrite := &model.StorageWrite{
 		Collection:      string(cont.Shop),
-		Key:             string(cont.Items),
+		Key:             string(cont.CommonShop),
 		UserID:          cont.System,
 		Value:           string(m),
 		PermissionRead:  2,
