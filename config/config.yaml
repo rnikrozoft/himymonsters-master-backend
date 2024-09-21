@@ -3,5 +3,5 @@ app:
 
 shop:
   id: "1TjW6-KlGjHMGAEbdKMyvk5LEJ-8StLPejNbzWOkQ45s"
-  sheet: "Sheet1!"
+  sheet: "CommonShop!"
   range: "A:E"
